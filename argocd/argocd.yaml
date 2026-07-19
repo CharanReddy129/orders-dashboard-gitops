@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/CharanReddy129/orders-dashboard-gitops.git
-    targetRevision: monitoring
+    targetRevision: main
     path: helm
 
     helm:
