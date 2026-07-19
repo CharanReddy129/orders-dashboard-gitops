@@ -6,7 +6,7 @@ backend:
   replicaCount: 1
   image:
     repository: charanreddy12/orders-dashboard-backend
-    tag: "03101e6"
+    tag: 0ac6a30
     pullPolicy: IfNotPresent
   service:
     name: backend-service
@@ -30,7 +30,7 @@ frontend:
   replicaCount: 1
   image:
     repository: charanreddy12/orders-dashboard-frontend
-    tag: "03101e6"
+    tag: 0ac6a30
     pullPolicy: IfNotPresent
   service:
     name: frontend-service
